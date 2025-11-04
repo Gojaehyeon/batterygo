@@ -71,7 +71,7 @@ class MenuBarController: ObservableObject {
             } else if isLowPowerMode {
                 iconColor = .systemYellow
             } else {
-                iconColor = .white
+                iconColor = textColor // use textColor, which can be black or white
             }
             
             let symbolName: String
